@@ -23,7 +23,7 @@ export function AnimalSelector({ onSelect, selectedAnimal }: AnimalSelectorProps
   return (
     <Select onValueChange={handleSelect} value={selectedAnimal?.id}>
       <SelectTrigger className="w-full max-w-sm h-14 text-lg font-medium bg-card border-2 border-primary/20 hover:border-primary/40 shadow-soft transition-all duration-300 focus:ring-primary/30 focus:ring-offset-2">
-        <SelectValue placeholder="🔍 Choose an animal..." />
+        <SelectValue placeholder="🔍 Choose an animal!!!..." />
       </SelectTrigger>
       <SelectContent className="bg-card border-2 border-primary/20 shadow-card">
         {animals.map((animal) => (
